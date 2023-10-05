@@ -1,0 +1,19 @@
+{
+  "name": "miristock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "miristock"
+  },
+  "author": "Turing-0623",
+  "license": "ISC",
+  "dependencies": {
+    "@react-navigation/native-stack": "^6.9.14",
+    "react-native-animatable": "^1.3.3"
+  }
+}

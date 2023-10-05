@@ -1,0 +1,71 @@
+.box {
+    height: 844px;
+    width: 390px;
+  }
+  
+  .box .rectangle {
+    background-color: var(--main);
+    height: 844px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 390px;
+  } 
+
+  .status-bar {
+    height: 44px;
+    position: relative;
+    width: 390px;
+  }
+  
+  .status-bar .notch {
+    height: 31px;
+    left: 117px;
+    position: absolute;
+    top: 0;
+    width: 156px;
+  }
+  
+  .status-bar .time {
+    color: var(--lighttexttext-active);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: -0.41px;
+    line-height: 22px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    white-space: nowrap;
+    width: 54px;
+  }
+  
+  .status-bar .right-side {
+    align-items: center;
+    display: inline-flex;
+    gap: 7px;
+    justify-content: flex-end;
+    left: 294px;
+    position: absolute;
+    top: 14px;
+  }
+  
+  .status-bar .icon-mobile-signal {
+    height: 12px;
+    position: relative;
+    width: 18px;
+  }
+  
+  .status-bar .wifi {
+    height: 11.83px;
+    position: relative;
+    width: 17px;
+  }
+  
+  .status-bar .statusbar-battery {
+    height: 13px;
+    position: relative;
+    width: 27.4px;
+  }
+  
